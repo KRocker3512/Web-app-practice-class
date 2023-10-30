@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="css-link" rel="stylesheet" href="./homework2-styleA.css">
+</head>
+<body>
+    <button id="change-css-button">Change CSS</button>
+
+    <script>
+        const button = document.getElementById("change-css-button");
+        const cssLink = document.getElementById("css-link");
+        let cssFile = "homework2-styleA.css";
+        button.addEventListener("click", () => {
+            if (cssFile === "homework2-styleA.css") {
+                cssFile = "homework2-styleB.css";
+            } else {
+                cssFile = "homework2-styleA.css";
+            }
+            cssLink.href = cssFile;
+        });
+    </script>
+
+    <div class="container">
+        <p class="odd" >A</p>
+        <p class="even" >B</p>
+        <p class="odd" >C</p>
+        <p class="even" >D</p>
+        <p class="odd" >E</p>
+        <p class="last" >F</p>
+    </div>
+</body>
+</html>

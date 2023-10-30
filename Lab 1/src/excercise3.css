@@ -1,0 +1,98 @@
+.block-views .item-list ul li {
+    background: url(https://student.uit.edu.vn/sites/all/themes/uitpb_daa/images/list-style.png) no-repeat 0 4px;
+    list-style: none;
+    padding-left: 12px;
+}
+
+
+.item-list ul li {
+    margin: 0 0 0.25em 0em;
+    padding: 0;
+}
+
+.views-row {
+    clear: both;
+    margin-bottom: 1em;
+}
+
+li {
+    line-height: 20px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+body {
+    background: #E5ECF4;
+    font-size: 14px;
+    font-family: sans-serif,Arial,Helvetica;
+    -webkit-text-size-adjust: 100%;
+    
+}
+
+div {
+    display: block;
+}
+
+#content-body .block-views{
+    background: none repeat scroll 0 0 #fdfdfd;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+}
+
+.more-link{
+    clear: both;
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    letter-spacing: .02em;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: sans-serif,Arial,Helvetica;
+    float: right;
+}
+
+.marker {
+    color: #f00;
+}
+
+.clearfix {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.block-views{
+    background: none repeat scroll 0 0 #fdfdfd;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+}
+
+h2{
+    padding: 0 10px 7px 0;
+    color: #0056e0;
+    border-bottom: 1px solid #e6e6e6;
+    color: #0056e0;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 10px 7px 0;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-rendering: optimizelegibility;
+}
+
+a{
+    color: #08c;
+    text-decoration: none;
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+a:hover {
+    color: #005580;
+}
