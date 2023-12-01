@@ -1,0 +1,56 @@
+/* Piano.css */
+
+.piano {
+  display: flex;
+  flex-direction: row;
+}
+
+.octave {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.piano-key {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50px;
+  height: 200px;
+  border: 1px solid #000;
+  cursor: pointer;
+  position: relative;
+}
+
+.white-key {
+  background-color: #fff;
+}
+
+.black-key {
+  background-color: #000;
+  width: 30px;
+  height: 120px;
+  position: absolute;
+  z-index: 1;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* Styling for the note text on the keys */
+.piano-key::after {
+  content: attr(data-note);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/* Styling for the black keys */
+.black-key::before {
+  content: '';
+  width: 100%;
+  height: 50%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}

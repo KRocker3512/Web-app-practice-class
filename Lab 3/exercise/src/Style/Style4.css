@@ -1,0 +1,10 @@
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #d0f0c0;
+    border: 1px solid green;
+    height: 100px;
+    width: 200px;
+  }
